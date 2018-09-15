@@ -9,7 +9,7 @@ SET ( SOURCES
   ${SOURCES}
   ejemplo1.cpp
   main.cpp
-        ../ejemplo2/timeSignal.cpp ../ejemplo2/timeSignal.h ../ejemplo2/signalSender.cpp ../ejemplo2/signalSender.h)
+        timeSignal.cpp timeSignal.h signalSender.cpp signalSender.h)
 
 # Headers set
 SET ( HEADERS
@@ -22,6 +22,6 @@ SET( QT_USE_QTGUI TRUE )
 QT4_WRAP_CPP( MOC_SOURCES ${HEADERS} )
 QT4_WRAP_UI( UI_HEADERS counterDlg.ui )
 
-ADD_EXECUTABLE(ejemplo1 ${SOURCES}  ${MOC_SOURCES} ${UI_HEADERS} ../ejemplo2/timeSignal.cpp ../ejemplo2/timeSignal.cpp ../ejemplo2/timeSignal.h ../ejemplo2/signalSender.cpp ../ejemplo2/signalSender.h)
+ADD_EXECUTABLE(ejemplo1 ${SOURCES}  ${MOC_SOURCES} ${UI_HEADERS} .timeSignal.cpp timeSignal.cpp timeSignal.h ignalSender.cpp signalSender.h)
 target_link_libraries(ejemplo1 ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY})
 install(TARGETS ejemplo1 RUNTIME DESTINATION bin)

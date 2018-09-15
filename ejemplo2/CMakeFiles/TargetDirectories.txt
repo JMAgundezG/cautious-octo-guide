@@ -1,7 +1,0 @@
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/install.dir
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/list_install_components.dir
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/rebuild_cache.dir
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/ejemplo1.dir
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/install/local.dir
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/install/strip.dir
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/edit_cache.dir
