@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "ui_counterDlg.h"
   "CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
   "CMakeFiles/ejemplo1.dir/main.cpp.o"
+  "CMakeFiles/ejemplo1.dir/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.o"
+  "CMakeFiles/ejemplo1.dir/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.o"
   "CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
   "ejemplo1.pdb"
   "ejemplo1"

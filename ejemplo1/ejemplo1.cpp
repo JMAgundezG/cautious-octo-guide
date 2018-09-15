@@ -1,5 +1,5 @@
 #include "ejemplo1.h"
-
+#include <pthread.h>
 ejemplo1::ejemplo1(): Ui_Counter()
 {
 	timer = new QTimer();

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1
+CMAKE_SOURCE_DIR = /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1
+CMAKE_BINARY_DIR = /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ejemplo1.dir/depend.make
@@ -59,25 +59,35 @@ include CMakeFiles/ejemplo1.dir/flags.make
 
 moc_ejemplo1.cxx: ejemplo1.h
 moc_ejemplo1.cxx: moc_ejemplo1.cxx_parameters
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating moc_ejemplo1.cxx"
-	/usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/moc_ejemplo1.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating moc_ejemplo1.cxx"
+	/usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_ejemplo1.cxx_parameters
+
+moc_signalSender.cxx: signalSender.h
+moc_signalSender.cxx: moc_signalSender.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating moc_signalSender.cxx"
+	/usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_signalSender.cxx_parameters
+
+moc_timeSignal.cxx: timeSignal.h
+moc_timeSignal.cxx: moc_timeSignal.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating moc_timeSignal.cxx"
+	/usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_timeSignal.cxx_parameters
 
 ui_counterDlg.h: counterDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_counterDlg.h"
-	/usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ui_counterDlg.h /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/counterDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_counterDlg.h"
+	/usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/ui_counterDlg.h /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/counterDlg.ui
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: CMakeFiles/ejemplo1.dir/flags.make
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: ejemplo1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o -c /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ejemplo1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o -c /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/ejemplo1.cpp
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ejemplo1.cpp > CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/ejemplo1.cpp > CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ejemplo1.cpp -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/ejemplo1.cpp -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o.requires:
 
@@ -92,16 +102,16 @@ CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o.provides.build: CMakeFiles/ejemplo1.dir/e
 
 CMakeFiles/ejemplo1.dir/main.cpp.o: CMakeFiles/ejemplo1.dir/flags.make
 CMakeFiles/ejemplo1.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ejemplo1.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/main.cpp.o -c /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ejemplo1.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/main.cpp.o -c /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/main.cpp
 
 CMakeFiles/ejemplo1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/main.cpp > CMakeFiles/ejemplo1.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/main.cpp > CMakeFiles/ejemplo1.dir/main.cpp.i
 
 CMakeFiles/ejemplo1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/main.cpp -o CMakeFiles/ejemplo1.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/main.cpp -o CMakeFiles/ejemplo1.dir/main.cpp.s
 
 CMakeFiles/ejemplo1.dir/main.cpp.o.requires:
 
@@ -114,18 +124,66 @@ CMakeFiles/ejemplo1.dir/main.cpp.o.provides: CMakeFiles/ejemplo1.dir/main.cpp.o.
 CMakeFiles/ejemplo1.dir/main.cpp.o.provides.build: CMakeFiles/ejemplo1.dir/main.cpp.o
 
 
+CMakeFiles/ejemplo1.dir/signalSender.cpp.o: CMakeFiles/ejemplo1.dir/flags.make
+CMakeFiles/ejemplo1.dir/signalSender.cpp.o: signalSender.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ejemplo1.dir/signalSender.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/signalSender.cpp.o -c /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp
+
+CMakeFiles/ejemplo1.dir/signalSender.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/signalSender.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp > CMakeFiles/ejemplo1.dir/signalSender.cpp.i
+
+CMakeFiles/ejemplo1.dir/signalSender.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/signalSender.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp -o CMakeFiles/ejemplo1.dir/signalSender.cpp.s
+
+CMakeFiles/ejemplo1.dir/signalSender.cpp.o.requires:
+
+.PHONY : CMakeFiles/ejemplo1.dir/signalSender.cpp.o.requires
+
+CMakeFiles/ejemplo1.dir/signalSender.cpp.o.provides: CMakeFiles/ejemplo1.dir/signalSender.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/signalSender.cpp.o.provides.build
+.PHONY : CMakeFiles/ejemplo1.dir/signalSender.cpp.o.provides
+
+CMakeFiles/ejemplo1.dir/signalSender.cpp.o.provides.build: CMakeFiles/ejemplo1.dir/signalSender.cpp.o
+
+
+CMakeFiles/ejemplo1.dir/timeSignal.cpp.o: CMakeFiles/ejemplo1.dir/flags.make
+CMakeFiles/ejemplo1.dir/timeSignal.cpp.o: timeSignal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ejemplo1.dir/timeSignal.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/timeSignal.cpp.o -c /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp
+
+CMakeFiles/ejemplo1.dir/timeSignal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/timeSignal.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp > CMakeFiles/ejemplo1.dir/timeSignal.cpp.i
+
+CMakeFiles/ejemplo1.dir/timeSignal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/timeSignal.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp -o CMakeFiles/ejemplo1.dir/timeSignal.cpp.s
+
+CMakeFiles/ejemplo1.dir/timeSignal.cpp.o.requires:
+
+.PHONY : CMakeFiles/ejemplo1.dir/timeSignal.cpp.o.requires
+
+CMakeFiles/ejemplo1.dir/timeSignal.cpp.o.provides: CMakeFiles/ejemplo1.dir/timeSignal.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/timeSignal.cpp.o.provides.build
+.PHONY : CMakeFiles/ejemplo1.dir/timeSignal.cpp.o.provides
+
+CMakeFiles/ejemplo1.dir/timeSignal.cpp.o.provides.build: CMakeFiles/ejemplo1.dir/timeSignal.cpp.o
+
+
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: CMakeFiles/ejemplo1.dir/flags.make
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: moc_ejemplo1.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o -c /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/moc_ejemplo1.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o -c /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_ejemplo1.cxx
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/moc_ejemplo1.cxx > CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_ejemplo1.cxx > CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/moc_ejemplo1.cxx -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_ejemplo1.cxx -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o.requires:
 
@@ -138,23 +196,79 @@ CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o.provides: CMakeFiles/ejemplo1.dir/moc
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o.provides.build: CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o
 
 
+CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o: CMakeFiles/ejemplo1.dir/flags.make
+CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o: moc_signalSender.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o -c /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_signalSender.cxx
+
+CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_signalSender.cxx > CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.i
+
+CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_signalSender.cxx -o CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.s
+
+CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o.requires:
+
+.PHONY : CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o.requires
+
+CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o.provides: CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o.requires
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o.provides.build
+.PHONY : CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o.provides
+
+CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o.provides.build: CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o
+
+
+CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o: CMakeFiles/ejemplo1.dir/flags.make
+CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o: moc_timeSignal.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o -c /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_timeSignal.cxx
+
+CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_timeSignal.cxx > CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.i
+
+CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_timeSignal.cxx -o CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.s
+
+CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o.requires:
+
+.PHONY : CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o.requires
+
+CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o.provides: CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o.requires
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o.provides.build
+.PHONY : CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o.provides
+
+CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o.provides.build: CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o
+
+
 # Object files for target ejemplo1
 ejemplo1_OBJECTS = \
 "CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o" \
 "CMakeFiles/ejemplo1.dir/main.cpp.o" \
-"CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
+"CMakeFiles/ejemplo1.dir/signalSender.cpp.o" \
+"CMakeFiles/ejemplo1.dir/timeSignal.cpp.o" \
+"CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o" \
+"CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o" \
+"CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o"
 
 # External object files for target ejemplo1
 ejemplo1_EXTERNAL_OBJECTS =
 
 ejemplo1: CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o
 ejemplo1: CMakeFiles/ejemplo1.dir/main.cpp.o
+ejemplo1: CMakeFiles/ejemplo1.dir/signalSender.cpp.o
+ejemplo1: CMakeFiles/ejemplo1.dir/timeSignal.cpp.o
 ejemplo1: CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o
+ejemplo1: CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o
+ejemplo1: CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o
 ejemplo1: CMakeFiles/ejemplo1.dir/build.make
 ejemplo1: /usr/lib/x86_64-linux-gnu/libQtCore.so
 ejemplo1: /usr/lib/x86_64-linux-gnu/libQtGui.so
 ejemplo1: CMakeFiles/ejemplo1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ejemplo1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ejemplo1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ejemplo1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -164,7 +278,11 @@ CMakeFiles/ejemplo1.dir/build: ejemplo1
 
 CMakeFiles/ejemplo1.dir/requires: CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o.requires
 CMakeFiles/ejemplo1.dir/requires: CMakeFiles/ejemplo1.dir/main.cpp.o.requires
+CMakeFiles/ejemplo1.dir/requires: CMakeFiles/ejemplo1.dir/signalSender.cpp.o.requires
+CMakeFiles/ejemplo1.dir/requires: CMakeFiles/ejemplo1.dir/timeSignal.cpp.o.requires
 CMakeFiles/ejemplo1.dir/requires: CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o.requires
+CMakeFiles/ejemplo1.dir/requires: CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o.requires
+CMakeFiles/ejemplo1.dir/requires: CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o.requires
 
 .PHONY : CMakeFiles/ejemplo1.dir/requires
 
@@ -173,7 +291,9 @@ CMakeFiles/ejemplo1.dir/clean:
 .PHONY : CMakeFiles/ejemplo1.dir/clean
 
 CMakeFiles/ejemplo1.dir/depend: moc_ejemplo1.cxx
+CMakeFiles/ejemplo1.dir/depend: moc_signalSender.cxx
+CMakeFiles/ejemplo1.dir/depend: moc_timeSignal.cxx
 CMakeFiles/ejemplo1.dir/depend: ui_counterDlg.h
-	cd /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1 /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1 /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1 /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1 /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/CMakeFiles/ejemplo1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2 /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2 /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2 /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2 /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/ejemplo1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ejemplo1.dir/depend
 

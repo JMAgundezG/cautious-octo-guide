@@ -433,6 +433,13 @@ CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtGui/qwmatrix.h
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtGui/qworkspace.h
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtGui/qwsembedwidget.h
 
+CMakeFiles/ejemplo1.dir/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.o: /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp
+CMakeFiles/ejemplo1.dir/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.o: /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.h
+
+CMakeFiles/ejemplo1.dir/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.o: /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.h
+CMakeFiles/ejemplo1.dir/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.o: /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp
+CMakeFiles/ejemplo1.dir/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.o: /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.h
+
 CMakeFiles/ejemplo1.dir/main.cpp.o: ejemplo1.h
 CMakeFiles/ejemplo1.dir/main.cpp.o: main.cpp
 CMakeFiles/ejemplo1.dir/main.cpp.o: ui_counterDlg.h

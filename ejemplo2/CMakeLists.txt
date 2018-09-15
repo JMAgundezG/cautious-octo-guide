@@ -9,19 +9,23 @@ SET ( SOURCES
   ${SOURCES}
   ejemplo1.cpp
   main.cpp
+        signalSender.cpp
+        timeSignal.cpp
  )
 
 # Headers set
 SET ( HEADERS
   ${HEADERS}
   ejemplo1.h
+        signalSender.h
+        timeSignal.h
 )
 
 FIND_PACKAGE( Qt4 REQUIRED )
-SET( QT_USE_QTGUI TRUE )
+SET( QT_USE_QTGUI TRUE)
 QT4_WRAP_CPP( MOC_SOURCES ${HEADERS} )
 QT4_WRAP_UI( UI_HEADERS counterDlg.ui )
 
 ADD_EXECUTABLE(ejemplo1 ${SOURCES}  ${MOC_SOURCES} ${UI_HEADERS})
-target_link_libraries(ejemplo1 ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY})
+target_link_libraries(ejemplo1 ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY} -lpthread)
 install(TARGETS ejemplo1 RUNTIME DESTINATION bin)

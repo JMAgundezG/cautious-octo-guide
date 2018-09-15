@@ -9,6 +9,8 @@
 /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ejemplo1.cpp
 ejemplo1.h
 /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ejemplo1.h
+pthread.h
+-
 
 /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ejemplo1.h
 QtGui
@@ -45,6 +47,34 @@ QtGui/QPushButton
 -
 QtGui/QWidget
 -
+
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp
+signalSender.h
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.h
+
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.h
+time.h
+-
+iostream
+-
+sys/types.h
+-
+signal.h
+-
+unistd.h
+-
+
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp
+timeSignal.h
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.h
+
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.h
+pthread.h
+-
+stdlib.h
+-
+signalSender.h
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.h
 
 /usr/include/qt4/Qt3Support/q3cstring.h
 QtCore/qbytearray.h

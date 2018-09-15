@@ -48,6 +48,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "moc_ejemplo1.cxx_parameters"
+  "moc_signalSender.cxx_parameters"
+  "moc_timeSignal.cxx_parameters"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

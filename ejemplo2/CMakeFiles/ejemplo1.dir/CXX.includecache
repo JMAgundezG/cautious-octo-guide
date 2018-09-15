@@ -6,29 +6,61 @@
 
 #IncludeRegexTransform: 
 
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ejemplo1.cpp
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/ejemplo1.cpp
 ejemplo1.h
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ejemplo1.h
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/ejemplo1.h
 
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ejemplo1.h
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/ejemplo1.h
 QtGui
 -
-QTimer
--
 ui_counterDlg.h
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ui_counterDlg.h
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/ui_counterDlg.h
+timeSignal.h
+-
 
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/main.cpp
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/main.cpp
 QtGui/QApplication
 -
 ejemplo1.h
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ejemplo1.h
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/ejemplo1.h
 
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/moc_ejemplo1.cxx
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_ejemplo1.cxx
 ejemplo1.h
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ejemplo1.h
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/ejemplo1.h
 
-/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ui_counterDlg.h
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_signalSender.cxx
+
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_timeSignal.cxx
+
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp
+signalSender.h
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.h
+
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.h
+time.h
+-
+iostream
+-
+sys/types.h
+-
+signal.h
+-
+unistd.h
+-
+
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp
+timeSignal.h
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.h
+
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.h
+pthread.h
+-
+stdlib.h
+-
+signalSender.h
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.h
+
+/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/ui_counterDlg.h
 QtCore/QVariant
 -
 QtGui/QAction
@@ -83,10 +115,6 @@ qpoint.h
 /usr/include/qt4/QtCore/QPointF
 qpoint.h
 /usr/include/qt4/QtCore/qpoint.h
-
-/usr/include/qt4/QtCore/QTimer
-qtimer.h
-/usr/include/qt4/QtCore/qtimer.h
 
 /usr/include/qt4/QtCore/QVariant
 qvariant.h
@@ -3853,4 +3881,24 @@ QtGui/qwidget.h
 /usr/include/qt4/QtGui/qwsembedwidget.h
 QtGui/qwidget.h
 -
+
+signalSender.h
+time.h
+-
+iostream
+-
+sys/types.h
+-
+signal.h
+-
+unistd.h
+-
+
+timeSignal.h
+pthread.h
+-
+stdlib.h
+-
+signalSender.h
+signalSender.h
 

@@ -2,13 +2,14 @@
 
 ejemplo1::ejemplo1(): Ui_Counter()
 {
-	timer = new QTimer();
-	timer->start(1000);
+
+	timer = new timeSignal();
     number = 0;
 	setupUi(this);
 	show();
-	connect(button, SIGNAL(clicked()), this, SLOT(doButton()) );
-	connect(timer ,SIGNAL(timeout()), this, SLOT(refresh()));
+	connect(button, SIGNAL(clicked()), this, SLOT(doButton()));
+    connect(timer, SIGNAL(signal_sender()), this, SLOT(refresh()));
+    timer->start();
 }
 
 ejemplo1::~ejemplo1()
@@ -27,7 +28,7 @@ void ejemplo1::doButton()
 		lcdNumber->display(number);
 	}
 	else {
-		timer->start(1000);
+		timer->start();
     }
 }
 

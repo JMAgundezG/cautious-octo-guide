@@ -433,6 +433,13 @@ CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o
  /usr/include/qt4/QtGui/qwmatrix.h
  /usr/include/qt4/QtGui/qworkspace.h
  /usr/include/qt4/QtGui/qwsembedwidget.h
+CMakeFiles/ejemplo1.dir/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.o
+ /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp
+ /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.h
+CMakeFiles/ejemplo1.dir/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.o
+ /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.h
+ /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp
+ /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.h
 CMakeFiles/ejemplo1.dir/main.cpp.o
  /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ejemplo1.h
  /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/main.cpp

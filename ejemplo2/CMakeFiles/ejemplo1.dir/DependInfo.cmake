@@ -4,9 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ejemplo1.cpp" "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
-  "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/main.cpp" "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/CMakeFiles/ejemplo1.dir/main.cpp.o"
-  "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/moc_ejemplo1.cxx" "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
+  "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/ejemplo1.cpp" "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
+  "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/main.cpp" "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/ejemplo1.dir/main.cpp.o"
+  "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_ejemplo1.cxx" "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
+  "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_signalSender.cxx" "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o"
+  "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/moc_timeSignal.cxx" "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o"
+  "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp" "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/ejemplo1.dir/signalSender.cpp.o"
+  "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp" "/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/ejemplo1.dir/timeSignal.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

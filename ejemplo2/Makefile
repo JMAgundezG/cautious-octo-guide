@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1
+CMAKE_SOURCE_DIR = /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1
+CMAKE_BINARY_DIR = /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,9 +124,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/CMakeFiles /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -248,6 +248,114 @@ moc_ejemplo1.cxx.s:
 	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s
 .PHONY : moc_ejemplo1.cxx.s
 
+moc_signalSender.o: moc_signalSender.cxx.o
+
+.PHONY : moc_signalSender.o
+
+# target to build an object file
+moc_signalSender.cxx.o:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o
+.PHONY : moc_signalSender.cxx.o
+
+moc_signalSender.i: moc_signalSender.cxx.i
+
+.PHONY : moc_signalSender.i
+
+# target to preprocess a source file
+moc_signalSender.cxx.i:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.i
+.PHONY : moc_signalSender.cxx.i
+
+moc_signalSender.s: moc_signalSender.cxx.s
+
+.PHONY : moc_signalSender.s
+
+# target to generate assembly for a file
+moc_signalSender.cxx.s:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.s
+.PHONY : moc_signalSender.cxx.s
+
+moc_timeSignal.o: moc_timeSignal.cxx.o
+
+.PHONY : moc_timeSignal.o
+
+# target to build an object file
+moc_timeSignal.cxx.o:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o
+.PHONY : moc_timeSignal.cxx.o
+
+moc_timeSignal.i: moc_timeSignal.cxx.i
+
+.PHONY : moc_timeSignal.i
+
+# target to preprocess a source file
+moc_timeSignal.cxx.i:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.i
+.PHONY : moc_timeSignal.cxx.i
+
+moc_timeSignal.s: moc_timeSignal.cxx.s
+
+.PHONY : moc_timeSignal.s
+
+# target to generate assembly for a file
+moc_timeSignal.cxx.s:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.s
+.PHONY : moc_timeSignal.cxx.s
+
+signalSender.o: signalSender.cpp.o
+
+.PHONY : signalSender.o
+
+# target to build an object file
+signalSender.cpp.o:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/signalSender.cpp.o
+.PHONY : signalSender.cpp.o
+
+signalSender.i: signalSender.cpp.i
+
+.PHONY : signalSender.i
+
+# target to preprocess a source file
+signalSender.cpp.i:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/signalSender.cpp.i
+.PHONY : signalSender.cpp.i
+
+signalSender.s: signalSender.cpp.s
+
+.PHONY : signalSender.s
+
+# target to generate assembly for a file
+signalSender.cpp.s:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/signalSender.cpp.s
+.PHONY : signalSender.cpp.s
+
+timeSignal.o: timeSignal.cpp.o
+
+.PHONY : timeSignal.o
+
+# target to build an object file
+timeSignal.cpp.o:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/timeSignal.cpp.o
+.PHONY : timeSignal.cpp.o
+
+timeSignal.i: timeSignal.cpp.i
+
+.PHONY : timeSignal.i
+
+# target to preprocess a source file
+timeSignal.cpp.i:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/timeSignal.cpp.i
+.PHONY : timeSignal.cpp.i
+
+timeSignal.s: timeSignal.cpp.s
+
+.PHONY : timeSignal.s
+
+# target to generate assembly for a file
+timeSignal.cpp.s:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/timeSignal.cpp.s
+.PHONY : timeSignal.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -270,6 +378,18 @@ help:
 	@echo "... moc_ejemplo1.o"
 	@echo "... moc_ejemplo1.i"
 	@echo "... moc_ejemplo1.s"
+	@echo "... moc_signalSender.o"
+	@echo "... moc_signalSender.i"
+	@echo "... moc_signalSender.s"
+	@echo "... moc_timeSignal.o"
+	@echo "... moc_timeSignal.i"
+	@echo "... moc_timeSignal.s"
+	@echo "... signalSender.o"
+	@echo "... signalSender.i"
+	@echo "... signalSender.s"
+	@echo "... timeSignal.o"
+	@echo "... timeSignal.i"
+	@echo "... timeSignal.s"
 .PHONY : help
 
 

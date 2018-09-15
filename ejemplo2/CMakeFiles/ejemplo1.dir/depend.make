@@ -11,7 +11,6 @@ CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtCore/QList
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtCore/QObject
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtCore/QPoint
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtCore/QPointF
-CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtCore/QTimer
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtCore/QVariant
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtCore/QtCore
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtCore/qabstractanimation.h
@@ -432,6 +431,8 @@ CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtGui/qwizard.h
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtGui/qwmatrix.h
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtGui/qworkspace.h
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtGui/qwsembedwidget.h
+CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: signalSender.h
+CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: timeSignal.h
 
 CMakeFiles/ejemplo1.dir/main.cpp.o: ejemplo1.h
 CMakeFiles/ejemplo1.dir/main.cpp.o: main.cpp
@@ -443,7 +444,6 @@ CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtCore/QList
 CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtCore/QObject
 CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtCore/QPoint
 CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtCore/QPointF
-CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtCore/QTimer
 CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtCore/QVariant
 CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtCore/QtCore
 CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtCore/qabstractanimation.h
@@ -864,6 +864,8 @@ CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtGui/qwizard.h
 CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtGui/qwmatrix.h
 CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtGui/qworkspace.h
 CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtGui/qwsembedwidget.h
+CMakeFiles/ejemplo1.dir/main.cpp.o: signalSender.h
+CMakeFiles/ejemplo1.dir/main.cpp.o: timeSignal.h
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: ejemplo1.h
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: moc_ejemplo1.cxx
@@ -875,7 +877,6 @@ CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtCore/QList
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtCore/QObject
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtCore/QPoint
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtCore/QPointF
-CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtCore/QTimer
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtCore/QVariant
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtCore/QtCore
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtCore/qabstractanimation.h
@@ -1296,4 +1297,17 @@ CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtGui/qwizard.h
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtGui/qwmatrix.h
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtGui/qworkspace.h
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtGui/qwsembedwidget.h
+CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: signalSender.h
+CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: timeSignal.h
+
+CMakeFiles/ejemplo1.dir/moc_signalSender.cxx.o: moc_signalSender.cxx
+
+CMakeFiles/ejemplo1.dir/moc_timeSignal.cxx.o: moc_timeSignal.cxx
+
+CMakeFiles/ejemplo1.dir/signalSender.cpp.o: signalSender.cpp
+CMakeFiles/ejemplo1.dir/signalSender.cpp.o: signalSender.h
+
+CMakeFiles/ejemplo1.dir/timeSignal.cpp.o: signalSender.h
+CMakeFiles/ejemplo1.dir/timeSignal.cpp.o: timeSignal.cpp
+CMakeFiles/ejemplo1.dir/timeSignal.cpp.o: timeSignal.h
 

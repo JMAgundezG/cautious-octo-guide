@@ -194,6 +194,60 @@ ejemplo1.cpp.s:
 	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s
 .PHONY : ejemplo1.cpp.s
 
+home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.o: home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.o
+
+.PHONY : home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.o
+
+# target to build an object file
+home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.o:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.o
+.PHONY : home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.o
+
+home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.i: home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.i
+
+.PHONY : home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.i
+
+# target to preprocess a source file
+home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.i:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.i
+.PHONY : home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.i
+
+home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.s: home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.s
+
+.PHONY : home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.s
+
+# target to generate assembly for a file
+home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.s:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.s
+.PHONY : home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp.s
+
+home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.o: home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.o
+
+.PHONY : home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.o
+
+# target to build an object file
+home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.o:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.o
+.PHONY : home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.o
+
+home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.i: home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.i
+
+.PHONY : home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.i
+
+# target to preprocess a source file
+home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.i:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.i
+.PHONY : home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.i
+
+home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.s: home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.s
+
+.PHONY : home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.s
+
+# target to generate assembly for a file
+home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.s:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.s
+.PHONY : home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -264,6 +318,12 @@ help:
 	@echo "... ejemplo1.o"
 	@echo "... ejemplo1.i"
 	@echo "... ejemplo1.s"
+	@echo "... home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.o"
+	@echo "... home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.i"
+	@echo "... home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.s"
+	@echo "... home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.o"
+	@echo "... home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.i"
+	@echo "... home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

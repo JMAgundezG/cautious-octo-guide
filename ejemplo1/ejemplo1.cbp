@@ -169,6 +169,18 @@
 		<Unit filename="/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/ui_counterDlg.h">
 			<Option target="ejemplo1"/>
 		</Unit>
+		<Unit filename="/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.cpp">
+			<Option target="ejemplo1"/>
+		</Unit>
+		<Unit filename="/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/signalSender.h">
+			<Option target="ejemplo1"/>
+		</Unit>
+		<Unit filename="/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.cpp">
+			<Option target="ejemplo1"/>
+		</Unit>
+		<Unit filename="/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo2/timeSignal.h">
+			<Option target="ejemplo1"/>
+		</Unit>
 		<Unit filename="/home/jmagundezg/Universidad/Cuarto/Robotica/ejemplo1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
