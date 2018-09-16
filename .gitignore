@@ -1,4 +1,1 @@
-*/
-!*.cpp
-!*.cmake
-!Makefile
+.kdev4

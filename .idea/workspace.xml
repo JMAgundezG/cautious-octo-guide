@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc9cc67c-15b7-4c48-917a-4877c9fef914" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ejemplo1/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/ejemplo1/CMakeFiles/" />
@@ -80,7 +80,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cpp" value="2283" />
-          <entry key="gitignore" value="30" />
+          <entry key="gitignore" value="39" />
           <entry key="h" value="582" />
           <entry key="txt" value="76" />
         </counts>
@@ -89,7 +89,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="76" />
           <entry key="ObjectiveC" value="2865" />
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="PLAIN_TEXT" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -100,7 +100,7 @@
           <entry key="cmake" value="5" />
           <entry key="cpp" value="14" />
           <entry key="cxx_parameters" value="1" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="h" value="14" />
           <entry key="txt" value="6" />
         </counts>
@@ -110,7 +110,7 @@
           <entry key="CMakeCache.txt" value="2" />
           <entry key="CMakeLists.txt" value="9" />
           <entry key="ObjectiveC" value="28" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -135,11 +135,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ejemplo3/ejemplo1.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="150">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -182,7 +191,6 @@
         <option value="$PROJECT_DIR$/ejemplo2/ejemplo1.h" />
         <option value="$PROJECT_DIR$/ejemplo2/ejemplo1.cpp" />
         <option value="$PROJECT_DIR$/ejemplo2/signalSender.cpp" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/ejemplo1/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/ejemplo3/signalSender.cpp" />
         <option value="$PROJECT_DIR$/ejemplo3/signalSender.h" />
@@ -190,6 +198,7 @@
         <option value="$PROJECT_DIR$/ejemplo2/timeSignal.h" />
         <option value="$PROJECT_DIR$/ejemplo2/timeSignal.cpp" />
         <option value="$PROJECT_DIR$/ejemplo3/ejemplo1.h" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -279,18 +288,18 @@
       <workItem from="1536821155282" duration="4706000" />
       <workItem from="1536947150704" duration="598000" />
       <workItem from="1537008976799" duration="11783000" />
-      <workItem from="1537104638316" duration="893000" />
+      <workItem from="1537104638316" duration="1591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36267000" />
+    <option name="totallyTimeSpent" value="36965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.113127" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.113127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -304,7 +313,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3294979" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="CMake" order="11" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="CMake" order="11" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3294979" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -377,13 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3885">
           <caret line="259" column="8" selection-start-line="259" selection-start-column="8" selection-end-line="259" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -466,8 +468,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ejemplo3/ejemplo1.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
