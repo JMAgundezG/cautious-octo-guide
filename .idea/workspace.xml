@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
-    <generated>
-      <config projectName="ejemplo1" targetName="ejemplo1" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -13,58 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fc9cc67c-15b7-4c48-917a-4877c9fef914" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ejemplo1/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo1/step.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/3.5.1/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/3.5.1/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/3.5.1/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/3.5.1/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/CMakeError.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/ejemplo1.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/ejemplo1.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/ejemplo1.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/ejemplo1.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/ejemplo1.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/ejemplo1.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/ejemplo1.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/ejemplo1.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/ejemplo1.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/ejemplo1.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/counterDlg.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/ejemplo1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/ejemplo1.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/ejemplo1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/ejemplo1.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/moc_ejemplo1.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/moc_ejemplo1.cxx_parameters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/signalSender.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/signalSender.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/step.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/timeSignal.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/timeSignal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejemplo2/ui_counterDlg.h" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ejemplo1/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/ejemplo1/CMakeFiles/" />
@@ -88,7 +34,6 @@
     <expand />
     <select />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
     <session id="-155616904">
       <usages-collector id="statistics.lifecycle.project">
@@ -128,21 +73,22 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="3" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1967" />
+          <entry key="cpp" value="2283" />
           <entry key="gitignore" value="30" />
-          <entry key="h" value="523" />
+          <entry key="h" value="582" />
           <entry key="txt" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="76" />
-          <entry key="ObjectiveC" value="2490" />
+          <entry key="ObjectiveC" value="2865" />
           <entry key="PLAIN_TEXT" value="30" />
         </counts>
       </usages-collector>
@@ -152,10 +98,10 @@
           <entry key="cbp" value="1" />
           <entry key="check_cache" value="1" />
           <entry key="cmake" value="5" />
-          <entry key="cpp" value="12" />
+          <entry key="cpp" value="14" />
           <entry key="cxx_parameters" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="h" value="12" />
+          <entry key="h" value="14" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
@@ -163,7 +109,7 @@
         <counts>
           <entry key="CMakeCache.txt" value="2" />
           <entry key="CMakeLists.txt" value="9" />
-          <entry key="ObjectiveC" value="24" />
+          <entry key="ObjectiveC" value="28" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -172,101 +118,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejemplo3/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/ejemplo2/timeSignal.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="285">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejemplo3/timeSignal.cpp">
+        <entry file="file://$PROJECT_DIR$/ejemplo2/timeSignal.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejemplo1/cmake_install.cmake">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejemplo3/timeSignal.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#45#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejemplo3/signalSender.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejemplo1/Makefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2672">
-              <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejemplo3/signalSender.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding>
-                <element signature="e#45#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejemplo3/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="544">
+              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ejemplo3/ejemplo1.cpp">
+        <entry file="file://$PROJECT_DIR$/ejemplo3/ejemplo1.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejemplo3/ejemplo1.h">
+        <entry file="file://$PROJECT_DIR$/ejemplo2/signalSender.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#40#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="20" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -298,16 +180,16 @@
         <option value="$PROJECT_DIR$/ejemplo2/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/ejemplo2/signalSender.h" />
         <option value="$PROJECT_DIR$/ejemplo2/ejemplo1.h" />
-        <option value="$PROJECT_DIR$/ejemplo2/timeSignal.cpp" />
         <option value="$PROJECT_DIR$/ejemplo2/ejemplo1.cpp" />
         <option value="$PROJECT_DIR$/ejemplo2/signalSender.cpp" />
-        <option value="$PROJECT_DIR$/ejemplo2/timeSignal.h" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/ejemplo1/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/ejemplo3/signalSender.cpp" />
         <option value="$PROJECT_DIR$/ejemplo3/signalSender.h" />
-        <option value="$PROJECT_DIR$/ejemplo3/ejemplo1.h" />
         <option value="$PROJECT_DIR$/ejemplo3/ejemplo1.cpp" />
+        <option value="$PROJECT_DIR$/ejemplo2/timeSignal.h" />
+        <option value="$PROJECT_DIR$/ejemplo2/timeSignal.cpp" />
+        <option value="$PROJECT_DIR$/ejemplo3/ejemplo1.h" />
       </list>
     </option>
   </component>
@@ -340,6 +222,11 @@
             <path>
               <item name="ejemplo1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Robotica" type="462c0819:PsiDirectoryNode" />
+              <item name="ejemplo2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ejemplo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Robotica" type="462c0819:PsiDirectoryNode" />
               <item name="ejemplo3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -368,21 +255,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ejemplo1">
+  <component name="RunManager">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ejemplo1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ejemplo1" RUN_TARGET_NAME="ejemplo1" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.ejemplo1" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -400,18 +278,19 @@
       <workItem from="1536763011268" duration="15446000" />
       <workItem from="1536821155282" duration="4706000" />
       <workItem from="1536947150704" duration="598000" />
-      <workItem from="1537008976799" duration="9262000" />
+      <workItem from="1537008976799" duration="11783000" />
+      <workItem from="1537104638316" duration="893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32853000" />
+    <option name="totallyTimeSpent" value="36267000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-6" width="1920" height="1086" extended-state="6" />
+    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.112059765" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.113127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -425,7 +304,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3294979" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info active="true" anchor="bottom" id="CMake" order="11" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3294979" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -473,9 +352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#39#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -491,26 +367,12 @@
         <state relative-caret-position="-91" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ejemplo3/moc_ejemplo1.cxx_parameters">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejemplo3/ejemplo1.cbp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejemplo3/CMakeFiles/cmake.check_cache">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejemplo3/CMakeFiles/Makefile.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-975" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejemplo3/CMakeFiles/CMakeDirectoryInformation.cmake">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejemplo3/CMakeCache.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ejemplo3/moc_ejemplo1.cxx_parameters" />
+    <entry file="file://$PROJECT_DIR$/ejemplo3/ejemplo1.cbp" />
+    <entry file="file://$PROJECT_DIR$/ejemplo3/CMakeFiles/cmake.check_cache" />
+    <entry file="file://$PROJECT_DIR$/ejemplo3/CMakeFiles/Makefile.cmake" />
+    <entry file="file://$PROJECT_DIR$/ejemplo3/CMakeFiles/CMakeDirectoryInformation.cmake" />
+    <entry file="file://$PROJECT_DIR$/ejemplo3/CMakeCache.txt" />
     <entry file="file://$PROJECT_DIR$/ejemplo3/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3885">
@@ -544,16 +406,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ejemplo3/timeSignal.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#45#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ejemplo3/timeSignal.h" />
     <entry file="file://$PROJECT_DIR$/ejemplo1/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2672">
@@ -565,19 +418,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ejemplo3/timeSignal.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ejemplo3/timeSignal.cpp" />
     <entry file="file://$PROJECT_DIR$/ejemplo3/signalSender.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -589,26 +433,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#45#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejemplo3/ejemplo1.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#40#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ejemplo3/ejemplo1.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="630">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejemplo2/timeSignal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejemplo2/signalSender.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejemplo2/timeSignal.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejemplo3/ejemplo1.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
